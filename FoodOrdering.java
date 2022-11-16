@@ -19,7 +19,7 @@ class bill extends JFrame implements ActionListener
 	Font f,f1;
 	bill()
 	{
-		ImageIcon i=new ImageIcon("E:\\Diya Work\\Java_PGM\\Blue1.jpg");
+		ImageIcon i=new ImageIcon("C:\\Work\\Java\\SEJavaProject\\Images\\Blue1.jpg");
 		limage=new JLabel(i);
 		t1=new JTextArea(orders1);
 		l1=new JLabel("YOUR ORDER SUMMARY");
@@ -75,7 +75,7 @@ class Thankyou extends JFrame
 		 t=new JLabel("Your total amount is "+bill.total);
 		 Font f=new Font("Verdana",Font.BOLD,30);
 		 t.setFont(f);
-		 ImageIcon i=new ImageIcon("E:\\Diya Work\\Java_PGM\\thankyoufinal.jpeg");		
+		 ImageIcon i=new ImageIcon("C:\\Work\\Java\\SEJavaProject\\Images\\thankyoufinal.jpeg");		
 		 limage=new JLabel(i);
 		 t.setBounds(530,700,500,50);
 		 limage.setBounds(0,0,1000,1000);
@@ -104,7 +104,7 @@ class Desserts extends JFrame implements ActionListener
 		m2=new JLabel("Menu");
 		p2=new JLabel("Price");
 		q2=new JLabel("Qty");
-		ImageIcon i=new ImageIcon("E:\\Diya Work\\Java_PGM\\Desserts.jpg");		
+		ImageIcon i=new ImageIcon("C:\\Work\\Java\\SEJavaProject\\Images\\Desserts.jpg");		
 		limage=new JLabel(i);
 		
 		b1=new JButton("PREVIOUS");
@@ -570,7 +570,7 @@ class Drinks extends JFrame implements ActionListener
 	Drinks()
 	{
 		
-		ImageIcon i=new ImageIcon("E:\\Diya Work\\Java_PGM\\Drink3.jpg");
+		ImageIcon i=new ImageIcon("C:\\Work\\Java\\SEJavaProject\\Images\\Drink3.jpg");
 		limage=new JLabel(i); 
 		d=new JLabel("DRINKS");
 		m1=new JLabel("Menu");
@@ -1026,7 +1026,7 @@ class italy_veg extends JFrame implements ActionListener
 	{
 		l1=new JLabel("      Menu                              Price                               QTY");
 		l2=new JLabel("      Menu                              Price                               QTY");
-		ImageIcon i=new ImageIcon("E:\\Diya Work\\Java_PGM\\Italianveg.jpeg");
+		ImageIcon i=new ImageIcon("C:\\Work\\Java\\SEJavaProject\\Images\\Italianveg.jpeg");
 		limage=new JLabel(i); 
 		
 		c1=new JCheckBox("Stuffed Shells-----RS250");
@@ -1534,7 +1534,7 @@ class italy_nonveg extends JFrame implements ActionListener
 	{
 		l1=new JLabel("      Menu                              Price                               QTY");
 		l2=new JLabel("      Menu                              Price                               QTY");
-	    ImageIcon i=new ImageIcon("E:\\Diya Work\\Java_PGM\\Italianveg.jpeg");
+	    ImageIcon i=new ImageIcon("C:\\Work\\Java\\SEJavaProject\\ImagesM\\Italianveg.jpeg");
 		limage=new JLabel(i); 
 		
 		c1=new JCheckBox("Lemon Chicken and Pea Gemelli-----RS300");
@@ -2045,7 +2045,7 @@ class mexican_veg extends JFrame implements ActionListener
 	{
 		l1=new JLabel("      Menu                              Price                               QTY");
 		l2=new JLabel("      Menu                              Price                               QTY");
-		ImageIcon i=new ImageIcon("E:\\Diya Work\\Java_PGM\\Mexicanveg.jpeg");
+		ImageIcon i=new ImageIcon("C:\\Work\\Java\\SEJavaProject\\Images\\Mexicanveg.jpeg");
 		limage=new JLabel(i); 
 		
 		c1=new JCheckBox("Vegetarian Empanadas-----RS300");
@@ -2553,7 +2553,7 @@ class mexican_nonveg extends JFrame implements ActionListener
 	{
 		l1=new JLabel("      Menu                              Price                               QTY");
 		l2=new JLabel("      Menu                              Price                               QTY");
-		ImageIcon i=new ImageIcon("E:\\Diya Work\\Java_PGM\\Mexicanveg.jpeg");
+		ImageIcon i=new ImageIcon("C:\\Work\\Java\\SEJavaProject\\Images\\Mexicanveg.jpeg");
 		limage=new JLabel(i); 
 		//s=new JLabel("STARTERS");
 		//lamount=new JLabel();
@@ -3574,7 +3574,7 @@ class Chinese extends JFrame implements ActionListener
 		this.setLayout(null);
 		l1=new JLabel("      Menu                              Price                               QTY");
 		l2=new JLabel("      Menu                              Price                               QTY");
-		ImageIcon i=new ImageIcon("D:\\Sahilkjava2021\\background.jpg");
+		ImageIcon i=new ImageIcon("C:\\Work\\Java\\SEJavaProject\\Images\\Cuisinefinal.jpg");
 		limage=new JLabel(i); 
 		//s=new JLabel("STARTERS");
 		//lamount=new JLabel();
@@ -4084,7 +4084,7 @@ class Indianveg extends JFrame implements ActionListener
 		
 		l1=new JLabel("      Menu                              Price                               QTY");
 		l2=new JLabel("      Menu                              Price                               QTY");
-		ImageIcon i=new ImageIcon("E:\\Diya Work\\Java_PGM\\indianveg.jpeg");
+		ImageIcon i=new ImageIcon("C:\\Work\\Java\\SEJavaProject\\Images\\indianveg.jpeg");
 		limage=new JLabel(i);
 		c1=new JCheckBox("Garlic Mushroom-----RS190");
 		c2=new JCheckBox("Malai Kofta----------RS170");
@@ -4596,7 +4596,7 @@ class Indiannonveg extends JFrame implements ActionListener
 		this.setLayout(null);
 		l1=new JLabel("      Menu                              Price                               QTY");
 		l2=new JLabel("      Menu                              Price                               QTY");
-		ImageIcon i=new ImageIcon("E:\\Diya Work\\Java_PGM\\indianveg.jpeg");
+		ImageIcon i=new ImageIcon("C:\\Work\\Java\\SEJavaProject\\Images\\indianveg.jpeg");
 		limage=new JLabel(i); 
 		//s=new JLabel("STARTERS");
 		//lamount=new JLabel();
@@ -5102,7 +5102,7 @@ class delivery1 extends JFrame implements ActionListener
 	order previous;
 	delivery1()
 	{
-		ImageIcon i=new ImageIcon("E:\\Diya Work\\Java_PGM\\Cuisinefinal.jpg");
+		ImageIcon i=new ImageIcon("C:\\Work\\Java\\SEJavaProject\\Images\\Cuisinefinal.jpg");
 		limage=new JLabel(i); 
 		t1=new JButton("Indian");
 		t2=new JButton("Chinese");
@@ -5167,7 +5167,7 @@ class delivery extends JFrame implements ActionListener
 	order previous;
 	delivery()
 	{
-		ImageIcon i=new ImageIcon("E:\\Diya Work\\Java_PGM\\Cuisinefinal.jpg");
+		ImageIcon i=new ImageIcon("C:\\Work\\Java\\SEJavaProject\\Images\\Cuisinefinal.jpg");
 		limage=new JLabel(i); 
 		t1=new JButton("Indian");
 		t2=new JButton("Chinese");
@@ -5232,7 +5232,7 @@ class order extends JFrame implements ActionListener
 	market previous;
 	order()
 	{
-		ImageIcon i=new ImageIcon("E:\\Diya Work\\Java_PGM\\vnv.jpeg");
+		ImageIcon i=new ImageIcon("C:\\Work\\Java\\SEJavaProject\\Images\\vnv.jpeg");
 		limage=new JLabel(i); 
 		d1=new JButton("VEG");
 		d2=new JButton("NON-VEG");
@@ -5307,7 +5307,7 @@ class market extends JFrame implements ActionListener
 	JLabel limage;
 	market()
 	{
-		ImageIcon i=new ImageIcon("E:\\Diya Work\\Java_PGM\\Hotel.jpg");
+		ImageIcon i=new ImageIcon("C:\\Work\\Java\\SEJavaProject\\Images\\Hotel.jpg");
 		limage=new JLabel(i); 
 		j1=new JButton("Bombay Taqueria");
 		j2=new JButton("Ralphys");
@@ -5378,7 +5378,7 @@ class Test extends JFrame implements ActionListener
 	JPasswordField pass;
 	Test()
 	{
-		ImageIcon i=new ImageIcon("E:\\Diya Work\\Java_PGM\\loginpage.jpeg");
+		ImageIcon i=new ImageIcon("C:\\Work\\Java\\SEJavaProject\\Images\\loginpage.jpeg");
 		limage=new JLabel(i); 
 		u1=new JLabel("USERNAME");
 		p1=new JLabel("PASSWORD");
