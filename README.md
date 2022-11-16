@@ -1,5 +1,6 @@
 # FoodOrdering
 Food Ordering project in Java
+
 A desktop application built in java for online food ordering system using Swings
 
 Customer can login into the portal with the login credentials
